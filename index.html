@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arpa Services - Staffing solutions for restaurants providing waiters, cooks, and helpers.">
+    <meta name="keywords" content="restaurant staffing solutions, waiters for hire, cook placement services, helper staffing solutions">
+    <meta name="author" content="Arpa Services">
+    <title>Arpa Services - Premium Staffing Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Arpa Services</h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Providing Skilled Waiters, Cooks, and Helpers</h2>
+            <p>Empowering unskilled, rural, and lower-class individuals to succeed in the restaurant industry.</p>
+            <a href="#contact" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="service-container">
+            <div class="service">
+                <h3>Waiter Placement</h3>
+                <p>Hire highly trained waiters who provide exceptional service in any restaurant environment.</p>
+            </div>
+            <div class="service">
+                <h3>Cook Placement</h3>
+                <p>Our cooks are skilled in multiple cuisines, ensuring your kitchen operates smoothly and efficiently.</p>
+            </div>
+            <div class="service">
+                <h3>Helper Placement</h3>
+                <p>Reliable helpers to assist in both the kitchen and dining areas, ensuring top-notch service.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-posts">
+            <div class="post">
+                <h3>How to Choose the Right Staff for Your Restaurant</h3>
+                <p>Learn how to find skilled staff that can enhance the quality of service at your restaurant. Read more...</p>
+            </div>
+            <div class="post">
+                <h3>Training & Development: Empowering Your Workforce</h3>
+                <p>Why training your staff is a crucial investment for long-term success in the restaurant business. Read more...</p>
+            </div>
+        </div>
+        <a href="/blog" class="cta-btn">Visit Our Blog</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" onsubmit="validateForm(event)">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2025 Arpa Services. All rights reserved.</p>
+            <p>Contact: info@arpaservices.com | Phone: +91-XXXXXXXXXX</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
